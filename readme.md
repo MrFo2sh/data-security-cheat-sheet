@@ -21,7 +21,7 @@
 | Notation   | Name                     | Description                                            |
 | ---------- | ------------------------ | ------------------------------------------------------ |
 | **{0,1}ⁿ** | Binary string space      | Set of all binary strings of length n                  |
-| **{0,1}**  | Binary set               | Set containing only 0 and 1                            |
+| **{0,1}**  | Binary set `             | Set containing only 0 and 1                            |
 | **ℳ**      | Message space            | Set of all valid messages                              |
 | **𝒦**      | Key space                | Set of all valid keys                                  |
 | **𝒞**      | Ciphertext space         | Set of all valid ciphertexts                           |
