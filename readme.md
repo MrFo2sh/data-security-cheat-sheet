@@ -144,13 +144,14 @@
 
 ## Negligible Functions
 
-| Expression        | Name                    | Description                                                    |
-| ----------------- | ----------------------- | -------------------------------------------------------------- |
-| **negl(n)**       | Negligible function     | Function smaller than 1/p(n) for all polynomials p and large n |
-| **f(n) < 1/p(n)** | Negligibility condition | For all polynomials p, eventually f(n) becomes smaller         |
-| **2⁻ⁿ**           | Exponentially small     | Classic example of negligible function                         |
-| **1/2ⁿ**          | Inverse exponential     | Another way to write 2⁻ⁿ                                       |
-| **1/n¹⁰⁰**        | Non-negligible          | This is NOT negligible (it's polynomial)                       |
+| Expression        | Name                    | Description                                                                                                               |
+| ----------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **ε (epsilon)**   | Advantage bound         | Distinguishing advantage bound; in computational settings ε = negl(n). In statistical settings, ε is a small fixed bound. |
+| **negl(n)**       | Negligible function     | Function smaller than 1/p(n) for all polynomials p and large n                                                            |
+| **f(n) < 1/p(n)** | Negligibility condition | For all polynomials p, eventually f(n) becomes smaller                                                                    |
+| **2⁻ⁿ**           | Exponentially small     | Classic example of negligible function                                                                                    |
+| **1/2ⁿ**          | Inverse exponential     | Another way to write 2⁻ⁿ                                                                                                  |
+| **1/n¹⁰⁰**        | Non-negligible          | This is NOT negligible (it's polynomial)                                                                                  |
 
 ---
 
