@@ -13,6 +13,7 @@
 | **ℳ**           | Message space           | Set of all possible messages                                                |
 | **𝒦**           | Key space               | Set of all possible keys                                                    |
 | **𝒞**           | Ciphertext space        | Set of all possible ciphertexts                                             |
+| **negl(n)**     | Negligible function     | Function that vanishes faster than any inverse polynomial                   |
 
 ---
 
@@ -67,26 +68,15 @@
 
 ---
 
-## Perfect Secrecy Definitions
-
-| Expression                               | Name                           | Description                                                |
-| ---------------------------------------- | ------------------------------ | ---------------------------------------------------------- |
-| **Pr[M = m \| C = c] = Pr[M = m]**       | Perfect secrecy (Definition 2) | Observing ciphertext doesn't change probability of message |
-| **Prₖ[Encₖ(m) = c] = Prₖ[Encₖ(m') = c]** | Equal encryption probability   | Any two messages equally likely to produce same ciphertext |
-| **Pr[A wins IND] = 1/2**                 | Perfect indistinguishability   | Adversary can't do better than random guessing (50%)       |
-| **\|𝒦\| ≥ \|ℳ\|**                        | Shannon's theorem              | Key space must be at least as large as message space       |
-
----
-
 ## Computational Security
 
-| Notation            | Name                          | Description                                                      |
-| ------------------- | ----------------------------- | ---------------------------------------------------------------- |
-| **PPT**             | Probabilistic Polynomial Time | Algorithm that runs in polynomial time with access to randomness |
-| **negl(n)**         | Negligible function           | Function that decreases faster than any polynomial (e.g., 2⁻ⁿ)   |
-| **p(n)**            | Polynomial function           | Function that grows polynomially (e.g., n², n¹⁰⁰)                |
-| **1/2 + negl(n)**   | Negligible advantage          | Success probability barely better than random guessing           |
-| **≤ 1/2 + negl(n)** | Computational security        | Adversary's success is negligibly better than 50%                |
+| Notation                    | Name                          | Description                                                      |
+| --------------------------- | ----------------------------- | ---------------------------------------------------------------- |
+| **PPT**                     | Probabilistic Polynomial Time | Algorithm that runs in polynomial time with access to randomness |
+| **negl(n) or ε(n) or μ(n)** | Negligible function           | Function that decreases faster than any polynomial (e.g., 2⁻ⁿ)   |
+| **p(n)**                    | Polynomial function           | Function that grows polynomially (e.g., n², n¹⁰⁰)                |
+| **1/2 + negl(n)**           | Negligible advantage          | Success probability barely better than random guessing           |
+| **≤ 1/2 + negl(n)**         | Computational security        | Adversary's success is negligibly better than 50%                |
 
 ---
 
